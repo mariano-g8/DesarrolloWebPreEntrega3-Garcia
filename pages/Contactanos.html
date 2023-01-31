@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Sitio web dedicado a Fito Paez">
+  <meta name="keywords" content="Circo Beat, El amor despues del amor, Fito, Rock Nacional, Música, rock argentino">
+  <title>Fito Paez - Contactanos</title>
+  <link rel="stylesheet" href="../css/main.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+</head>
+
+<body>
+  <header>
+    <!-- navbar inicia-->
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="">Fito Paez Online</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="../index.html">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="../pages/Bio.html" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Bio
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li> <a class="dropdown-item" href="../pages/Bio.html#Biografía">Biografía</a></li>
+                            <li> <a class="dropdown-item" href="../pages/Bio.html#Infancias">Infancia
+                                    (1963-1975)</a></li>
+                            <li> <a class="dropdown-item" href="../pages/Bio.html#comienzos">Inicios musicales
+                                    (1975-1980)</a></li>
+                            <li> <a class="dropdown-item" href="../pages/Bio.html#trova">La trova rosarina y su
+                                    trabajo con Charly García (1981-1985)</a></li>
+                            <li> <a class="dropdown-item" href="../pages/bio.html#solista">Carrera como solista
+                                    (1983-presente)</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../pages/Discografia.html">Discografía</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../pages/Media.html">Media</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../pages/Contactanos.html">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- navbar cierra-->
+  <main>
+    <div class="imagen-contact"><img src="../imagenes/9a282583af40cb86bac74a84785f3897.jpg" alt="" height="50%"
+        width="50%"></div>
+
+    <!-- formulario de contacto -->
+    <div class="formulario-contacto">
+
+      <form action="formulario-contacto.php" method="post">
+        <h4>Dejanos tu mensaje</h4>
+        
+        <input name="nombre" type="text" placeholder="Nombre" maxlength="30" pattern="[a-zA-Z0-9]+" required
+          autofocus />
+        <input name="Apellido" type="text" placeholder="Apellido" maxlength="30" pattern="[a-zA-Z0-9]+" required
+          autofocus />
+        <input name="fechadenacimiento" type="date" placeholder="Fecha de Nacimiento" maxlength="30"
+          pattern="[a-zA-Z0-9]+" required autofocus />
+        <input name="email" type="email" placeholder="Correo electrónico" required />
+        <textarea name="consulta" placeholder="Dejanos tu mensaje" rows="6" required></textarea>
+        <button id="enviar" name="enviar" type="submit" class="btn">ENVIAR</button>
+      </form>
+    </div>
+  </main>
+  <footer>
+    <div class="copyright">
+      <i class="fa-regular fa-copyright"></i> Todos los derechos reservados
+    </div>
+    <!-- redes sociales - awesome fonts -->
+    <div class="redes">
+      <div class="instagram"><a href="https://instagram.com/fitopaezmusica?igshid=YmMyMTA2M2Y=" target="_blank"><i
+        class="fa-brands fa-instagram"></i></a></div>
+    <div class="facebook"><a href="https://www.facebook.com/fitopaez" target="_blank"><i class="fa-brands fa-facebook"></i></a></div>
+    <div class="twitter"><a href="https://www.twitter.com/FitoPaezMusica" target="_blank"><i class="fa-brands fa-twitter"></i></a></div>
+  </div>
+  </footer>
+  <script src="https://kit.fontawesome.com/e4cdfbb0a2.js" crossorigin="anonymous"></script>
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous">
+</script>
+</body>
+
+</html>
